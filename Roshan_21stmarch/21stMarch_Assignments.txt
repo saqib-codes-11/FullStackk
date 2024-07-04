@@ -1,0 +1,58 @@
+1.If the Exception is not Arithmetic Exception then how to catch that Exception?
+--> There are many classes that are builtin in the java.lang package such as ArithmeticeException,ArrayIndexOutOfBoundException etc. which can handle the respective Exceptions however if you need to handle exceptions apart from the builtin Exception java provides a provision on custom Exception where you can write your own exception class to handle the same.
+
+2.What languages do you need to learn for android development?
+-->The official language for Android development is Java. Large parts of Android are written in Java and its APIs.It is possible to develop C and C++ app using the android native development kit(NDK).
+
+3.What is cloud? what is cloud from aws?what is cloud from microsoft?
+-->"The cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers.By using cloud computing, users and companies do not have to manage physical servers themselves or run software applications on their own machines. microsoft azure and amazon aws are such platform which provide cloud computing.
+
+4.what is html?css?javascript?
+-->The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.
+
+5.Difference between java and javascript?
+-->According to the Java platform official website, the main difference between Java and JavaScript is that Java is an OOP programming language while JavaScript is an OOP programming script. JavaScript code is written completely in text and need only be interpreted. Java, on the other hand, must be compiled.
+
+They are also used for different types of projects. Java is used to make applications on devices or browsers, while JavaScript is used primarily on HTML documents and browsers. Different plug-ins are used in order to use Java and JavaScript.
+
+6.what is a cookie?
+-->Cookies are small files of information that a web server generates and sends to a web browser. Web browsers store the cookies they receive for a predetermined period of time, or for the length of a user's session on a website. They attach the relevant cookies to any future requests the user makes of the web server.
+
+Cookies help inform websites about the user, enabling the websites to personalize the user experience. For example, ecommerce websites use cookies to know what merchandise users have placed in their shopping carts. In addition, some cookies are necessary for security purposes, such as authentication cookies
+
+7.how are we getting info on google if we have'nt logged in?
+-->it is possible to use Chrome without signing in. The only problem, though, would be that whenever you open Chrome, you won't be taken to your homepage. You will be taken to the Chrome Sign-In page every time!
+
+8.if javascript can be front end then why React and angular?
+-->It helps you create your web applications in a more maintainable way.It means you can write more maintainable apps with fewer bugs.it is faster and more fun as well!
+
+9.What is React and Angular?
+-->Angular is a development platform built on the typescript. It is a component-based framework for building scalable web apps.
+React is an open-source JavaScript library used for frontend development. It is used for building user interface or UI components.
+
+10.whatis orm and hibernate?
+-->Object-relational mapping or ORM is the programming technique to map application domain model objects to the relational database tables. Hibernate is a Java-based ORM tool that provides a framework for mapping application domain objects to the relational database tables and vice versa.
+
+11.Keyword for interface to interface?
+-->An interface can extend another interface in the same way that a class can extend another class. The extends keyword is used to extend an interface, and the child interface inherits the methods of the parent interface. The following Sports interface is extended by Hockey and Football interfaces.
+
+12.what is the default access for variables and functions in java 7?
+-->When we don't use any keyword explicitly, Java will set a default access to a given class, method or property. The default access modifier is also called package-private, which means that all members are visible within the same package but aren't accessible from other packages.
+
+13.How many types of file farmat is there?
+-->There are hundreds of different file extensions and file types
+
+14.Examples of rdbms and non rdbms?
+-->Some examples of specific systems that use RDBMS include IBM, Oracle, MySQL, Microsoft SQLServer and PostgreSQL.non-relational databases examples:MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
+
+15.difference between spring framwork and spring boot?
+-->Spring Framework is a widely used Java EE framework for building applications.
+It aims to simplify Java EE development that makes developers more productive.
+
+Spring Boot Framework is widely used to develop REST APIs.It aims to shorten the code length and provide the easiest way to develop Web Applications.
+
+16.difference between LinuxOS and WindowsOS?
+-->Linux is Open Source and is free to use.Linux file system is case sensitive.Linux is more efficient in operations as compared to Windows.Linux is highly secure as compared to Windows.
+
+Windows is not open source and is not free to use.Windows file system is case insensitive.Windows provides less security as compared to Linux.
+-->

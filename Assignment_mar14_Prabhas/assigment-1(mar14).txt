@@ -1,0 +1,79 @@
+1.)Can we have an else condition without if condition?
+
+2.)Other than boolean can we use anything in if condition?
+
+3.)Why break is imp in switch case?
+You can use the break statement to end processing of a particular
+labeled statement within the switch statement. 
+It branches to the end of the switch statement. Without break ,
+the program continues to the next labeled statement, executing the 
+statements until a break or the end of the statement is reached.
+
+
+
+4.)Understand the naming conventions?
+In computer programming, a naming convention is a set of rules for
+ choosing the character sequence to be used for identifiers 
+which denote variables, types, functions, and other entities 
+in source code and documentation.
+
+Project lead's last name or initials. 
+File creator's last name or initials. 
+Project name/acronym. Date file created/generated (in YYYY-MM-DD format)
+
+
+
+6.)Understand diff between WAR,EAR,JAR file?
+
+
+
+7.)How can you tell the technology by seeing URL?
+The source code of a website is easily accessible from your browser. In Chrome, look for Developer Tools, 
+in Firefox look for Web Developer in your menu. The source code's file 
+extensions and URLs can tell you what type of platform the website is built on.
+
+
+8.)Is java 100% Object oriented language?
+Java is not a pure object oriented language because it supports 
+Primitive datatype such as int, byte, long? etc, to be used, which are not objects.
+
+
+9.)How would you design web application for sign in and sign up? 
+
+10.)How can u create repository what's the command? 
+
+11.)Why github gives u free of cost to create new repository? 
+
+GitHub makes money by offering premium subscription plans to
+teams and organizations as well as a fee it generates when users purchase third-party apps on their platform.
+
+
+
+12.)What is agile? 
+At its simplest, Agile simply means continuous incremental improvement 
+through small and frequent releases. The term Agile is most commonly
+associated with software development as a project management methodology
+
+
+13.)What are the ticketing tools used in agile?
+Requirement,source code(configuration)-ms excel
+source code managing tools -github,bigbucket
+code development(IDE)-eclipse,jdeveloper
+documents-wiki
+unit and regression testing-Junit,Nunit
+CI and build,-jenkins,docker,msbuild
+Application deployment,-jenkins
+Team collaboration-lync,msteams
+project management -ms excel,ms power point
+reporting-
+
+
+14.)How many version control tools are there? 
+There are two types of version control: centralized and distributed
+
+15.)What is scrum call?
+Daily Scrum meeting is also called can Scrum call or Standup meeting. 
+This meeting own by the Scrum team, happens
+mostly during beginning of every day. Should last for max 15 minutes. 
+Where the development team member discuss on the work they have done,
+and make the strategy to work for the day.

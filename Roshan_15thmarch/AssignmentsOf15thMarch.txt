@@ -1,0 +1,30 @@
+1.what is the difference between constructor and function in a class?
+-->Constructors are used to initialization ,methods are used to carry out a speacific task.
+invoking a constructor is implicit but invoking a function in explicit.
+constructors do not have a return type where as functions do.constructors should have the same name as class name but funcions have name which is not the class name.
+
+2.who gives default constructors ?
+-->java virtual machine.
+
+3.responsiblities of jvm?
+-->Verifies and Executes the code,Provides runtime environment and Loads code
+
+4.Is java call by value or call by reference?
+-->java uses call by value.The changes done in the called method is not affected by the calling method.
+
+5.who is providing extra functions in java?
+-->the build in packages and library functions present in java provide extra functions in java.
+
+6.what happens in a final keyword is applied in class or function?
+-->if we use final for a function ,it cannot be overridden and if you make a class as final then this class cannot be inherited or extended by other classes.if a varible is made final then its value cannot be changed.
+
+7.why only Strings are passed in main?
+-->because passing a string allows all characters, symbols, operators and other special characters which may not be possible using other data types
+
+8.why only jvm gives default constructors?
+--> default constructors are for initialization of default values done by the compiler which is a part of jvm.
+
+
+
+
+

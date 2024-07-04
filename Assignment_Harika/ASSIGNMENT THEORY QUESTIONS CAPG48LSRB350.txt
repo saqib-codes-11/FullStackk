@@ -1,0 +1,126 @@
+                                                      Assignment 
+
+14/03/22 
+
+1.What is Debugging?
+The Java Platform Debugger Architecture is a collection of APIs to debug Java code. 
+Java Debugger Interface - defines a high-level Java language interface that developers 
+can easily use to write remote debugger application tools. 
+
+2.What are the default packages present in java?
+Java compiler imports java. lang package internally by default. 
+It provides the fundamental classes that are necessary to design a basic Java program. 
+
+3.Can we have an else condition without if condition?
+ it is very common to have an if without an else when there is no specific activity 
+that needs to be performed when the condition is false. 
+
+4.Other than boolean can we use anything in if condition?
+if ( condition ) statement; if is a Java reserved word The condition must be a boolean expression. 
+It must evaluate to either true or false. If the condition is true, the statement is executed. 
+
+5.why break is imp in switch case?
+The case statements in a switch statements are simply labels. 
+When you switch on a value, the switch statement essentially does a goto to the label with the matching value. 
+This means that the break is necessary to avoid passing through to the code under the next label. 
+
+6.Understand the naming conventions in java?
+For variables, the Java naming convention is to always start with a lowercase letter and then capitalize 
+the first letter of every subsequent word. Variables in Java are not allowed to contain white space, 
+so variables made from compound words are to be written with a lower camel case syntax. 
+
+15/03/22 
+
+1. what is difference b/w constructor and fucntion in the class?
+Constructor is used to initialize an object whereas method is used to exhibits functionality of an object. 
+Constructors are invoked implicitly whereas methods are invoked explicitly. 
+
+2. who gives default constructor?
+The Jvm provides a default constructor if you don't have any constructor in a class. 
+
+3. what are other responsibilities of jvm?
+JVM is specifically responsible for converting bytecode to machine-specific code and is necessary in both JDK and JRE. 
+It is also platform-dependent and performs many functions, including memory management and security. 
+
+4. Is java call by reference or call by value?
+Java uses only call by value while passing reference variables as well. 
+It creates a copy of references and passes them as valuable to the methods. 
+
+5. what happens if a final keyword is applied on class and function?
+If we initialize a variable with the final keyword, then we cannot modify its value. 
+If we declare a method as final, then it cannot be overridden by any subclasses. 
+And, if we declare a class as final, we restrict the other classes to inherit or extend it. 
+
+6. what happens if final keyword is applied on variable,class and method?
+If we initialize a variable with the final keyword, then we cannot modify its value. 
+If we declare a method as final, then it cannot be overridden by any subclasses.
+
+7. why string is passed in main method?
+Because by passing String arrays , we can pass all the necessary parameters 
+like options/arguments related to the program in the form of String easily. 
+
+8. difference b/w java 8 and java7?
+Java 7 brings JVM support for dynamically-typed languages plus Type Interference for Generic Instance creation.
+Java 8 brings the most anticipated feature for the programming language called Lambda Expressions, 
+a new language feature which allows users to code local functions as method arguments. 
+
+9. difference b/w collection and collections?
+The Collection is an interface whereas Collections is a utility class in Java. 
+
+16/03/22 
+
+1. underlying ds for linked list,arraylist?
+ArrayList is a resizable array implementation in java. The backing data structure of ArrayList is an array of Object class. 
+When creating an ArrayList you can provide initial capacity then the array is declared with the given capacity. 
+The default capacity value is 10.Linked List contains a link element called first. 
+Each link carries a data field(s) and a link field called next. 
+Each link is linked with its next link using its next link. 
+Last link carries a link as null to mark the end of the list. 
+
+2. Advantages and disadvatages of array list?
+Advantages -
+• You can define ArrayList as re-sizable array. 
+
+• Elements can be inserted at or deleted from a particular position. 
+
+• ArrayList class has many methods to manipulate the stored objects. 
+
+• If generics are not used, ArrayList can hold any type of objects. 
+
+Disadvatages- 
+
+A possible disadvantage of ArrayList is that it holds only object types and not primitive types (eg, int ).
+To use a primitive type in an ArrayList, put it inside an object or use of the 
+wrapper classes (eg, Integer, Double, Character). 
+
+3. What are iterators and cursors?
+An iterator allows iteration of a container with no knowledge of the container itself.
+A cursor, on the other hand, allows iteration of a container as well but has implementation details 
+specific to the container type, so it does keep a reference to the container.
+
+4. what are list iterator,iterator,enumerator with code?
+ListIterator is one of the four java cursors. It is a java iterator which is used to traverse all types of lists 
+including ArrayList, Vector, LinkedList, Stack etc.
+An Iterator is an object that can be used to loop through collections,
+like ArrayList and HashSet. It is called an "iterator" because "iterating" is the technical term for looping. 
+To use an Iterator, you must import it from the java.
+Enumeration means a list of named constant. In Java, enumeration defines a class type. 
+An Enumeration can have constructors, methods and instance variables. It is created using enum keyword. 
+
+5. IndexoutofboundException and arrayIndexOutofboundexception is same?
+IndexOutOfBoundsException is the super class of ArrayIndexOutOfBoundsException 
+(thrown when accessing invalid index in a array) and StringIndexOutOfBoundsException 
+(thrown when accessing invalid index in a String). 
+
+can finally be return without try catch?
+You cannot have a catch or finally without a try block. If you don't want to handle an exception in your code, 
+then declare them with a throws clause. 
+
+6. Difference b/w comparable and comparator?
+Comparable provides a single sorting sequence. In other words, we can sort the collection on the basis of a 
+single element such as id, name, and price.
+The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis 
+of multiple elements such as id, name, and price etc. 
+
+                                                                                                             ALLA HARIKA DEVI 
+                                                                                                             CAPG48LSRB350

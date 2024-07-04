@@ -1,0 +1,18 @@
+package parameter;
+//with parameter and return type
+public class Parameter2 {
+        public static Integer add(int x, int y)
+        {
+                int sum = x + y;
+	        return sum;
+        }
+	public static void main(String[] args) {
+		int a = 10;
+	        int b = 20;
+	        int output = add(a, b);
+	        System.out.println("Sum of Two numbers is "+output);
+	}
+        
+	
+
+}

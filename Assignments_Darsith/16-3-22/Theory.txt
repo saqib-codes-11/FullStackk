@@ -1,0 +1,86 @@
+1) What are the predifined functions in collection in java?
+add(Object) -> To add an object to the collection.
+addAll(Collection c) ->To adds all the elements in the given collection to this collection.
+clear() -> To removes all of the elements from this collection.
+contains(Object o) -> To returns true if the collection contains the specified element.
+containsAll(Collection c) -> To returns true if the collection contains all of the elements in the given collection.
+equals(Object o) -> To compares the specified object with this collection for equality.
+hashCode() -> To return the hash code value for this collection.
+isEmpty() -> To true if this collection contains no elements.
+iterator() -> To returns an iterator over the elements in this collection.
+max() -> To return the maximum value present in the collection.
+parallelStream() -> To returns a parallel Stream with this collection as its source.
+remove(Object o) -> To remove the given object from the collection. If there are duplicate values, then this method removes the first occurrence of the object.
+removeAll(Collection c)	-> To remove all the objects mentioned in the given collection from the collection.
+removeIf(Predicate filter) -> To remove all the elements of this collection that satisfy the given predicate.
+retainAll(Collection c)	-> To retain only the elements in this collection that are contained in the specified collection.
+size() -> To return the number of elements in the collection.
+spliterator() -> To create a Spliterator over the elements in this collection.
+stream() -> To return a sequential Stream with this collection as its source.
+toArray() -> To return an array containing all of the elements in this collection.
+		
+2) What are the underlying ds for linked list arraylist in java?
+Both ArrayList and LinkedList are two different implementations of the List interface. ArrayList is a resizable-array implementation, whereas LinkedList is a Doubly linked list implementation of the List interface.
+
+3) What are the advantages and disadvatages of array list?
+
+Advantages:
+-Retrieval is faster in ArrayList
+-ArrayList is variable length.
+-Add any type of data into ArrayList.
+-Can traverse in both directions.
+-Insert and remove elements also at particular position of ArrayList.
+-ArrayList allows multiple null values.
+-ArrayList allows to add duplicate elements.
+-ArrayList has many methods to manipulate stored objects.
+-When ArrayList exceeds its capacity, then its size increases by 50%.
+
+Disadvantages:
+-If a data entry is added to or removed from an array-based list, data needs to be shifted to update the list.
+-Holds only object types and not primitive
+types
+
+4) What are iterators and cursors?
+An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
+Java Cursor is an Iterator, which is used to iterate or traverse or retrieve a Collection or Stream object's elements one by one.
+
+5) What are the 10 owasp?
+Injection
+Broken Authentication
+Sensitive Data Exposure
+XML External Entities (XXE)
+Broken Access Control
+Security Misconfiguration
+Cross-Site Scripting (XSS)
+Insecure Deserialization.
+Using components with known vulnerabilities
+Insufficient logging and monitoring
+
+6) Can catch be returned without try?
+No, We can't have catch or finally clause without a try statement.
+
+7) Can try be return catch in java?
+Whenever try-block executes successfully, then it can always return value for this method
+from try-block. But if any exception is raised then it is NOT handled as there is no catch-block
+for this case.
+
+8) Can finally be return without try catch in java?
+A finally block must be associated with a try block, you cannot use finally without a try block. 
+
+9)diffarence b/w comparable and comparator in java?
+
+Comparable:-
+1) Comparable provides a single sorting sequence. In other words, 
+we can sort the collection on the basis of a single element such as id, name, and price.
+2) Comparable affects the original class, i.e., the actual class is modified.
+3) Comparable provides compareTo() method to sort elements.
+4) Comparable is present in java.lang package.	
+5) We can sort the list elements of Comparable type by Collections.sort(List) method.
+
+Comparator:-
+1)The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc.
+2)Comparator doesn't affect the original class, i.e., the actual class is not modified.
+3)Comparator provides compare() method to sort elements.
+4)A Comparator is present in the java.util package.
+5)We can sort the list elements of Comparator type by Collections.sort(List, Comparator) method.
+	

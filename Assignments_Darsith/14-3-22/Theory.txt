@@ -1,0 +1,18 @@
+1.) What is Debugging?
+Running the code step by step to find the exact point where you made a programming mistake.
+
+2.) What are the default packages present in java?
+java.lang
+
+3.) Can we have an else condition without if condition?
+No
+
+4.) Other than boolean can we use anything in if condition?
+No
+
+5.) Why break is important in switch case?
+Program will execute all consecutive case statements until 
+it finds next break statement or till the end of switch case block.
+
+6.) Understand the naming conventions in java.
+Java follows camel-case syntax for naming the class, interface, method, and variable. If the name is combined with two words, the second word will start with uppercase letter.

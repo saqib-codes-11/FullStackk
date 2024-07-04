@@ -1,0 +1,109 @@
+1.Why the output is showing false for the following?
+class IfDemo {
+    public static void main(String  args[])
+    {
+           Sample2333  SampleObj23 = new Sample2333();
+      //  System.out.println(SampleObj23.add()  );
+       // System.out.println(SampleObj23.add(1,2)  );
+        System.out.println(SampleObj23.add("Ramana SAI")  );
+    }
+}
+
+class Sample2333
+{
+int a=90;
+byte b= 89;
+
+String name = "Rachana";
+//non praprmeter
+int add(){
+   //comment
+    String name = "sdfkgsdf";
+   int c= 23+23;
+   System.out.println("I am a non paramtereted and with rtetuurn value function");
+   return c ;
+}
+    int add(int a, int b){
+        //comment
+        int c= a+b;
+        System.out.println("I am parametered  nd with rtetuurn value function");
+        return c;
+    }
+    boolean add(String str){
+        //comment
+        System.out.println("Hellow " +str  +"can you hear me ?");
+        return false;
+    }
+}
+Ans :	In the function add() return the Boolean value, the Boolean value returned from the method is
+false and this returned value is printed which will print false in the output.If return is true it will print true 	
+
+
+2.Difference between constructor and method?
+
+constructor: 1.) Constructor is used to create and initialize an Object .
+             2.)A constructor can not have any return type.
+             3.)A constructor must have same name as that of the class.
+
+Method :   1.)Method is used to execute certain statements.
+           2.)A method can have a return type.
+           3.)A method name can not be same as class name.          
+
+
+3.Who gives default constructor?
+A:The Java compiler provides a default constructor if you don't have any constructor in a class. 
+The method is not provided by the compiler in any case.If we don’t define a constructor in a class, 
+then the compiler creates default constructor which has no parameters for the class.
+
+4.)what are the other roles of jvm ?
+A : The JVM has two primary functions: to allow Java programs to run on any device or operating system
+,and to manage and optimize program memory The role of JVM in Java is an abstract machine designed to be implemented on top of existing processors.
+It hides the underlying operating system from Java applications.
+
+5.)Why string is passed in main method?
+A: It stores Java command-line arguments and is an array of type java. lang. String class.
+ Here, the name of the String array is args but it is not fixed and the user can use any name in place of it.
+
+6.)What happens if final keyword is applied on variable, class and method ?
+A  The final variables are nothing but constants. We cannot change the value of a final variable once it is initialized.
+ final method cannot be overridden. Which means even though a sub class can call the final method of parent class without any issues but it cannot override it.
+When we declare a class as final it cannot be extend.
+
+7.)Is java call by reference or call by value?
+Ans:	Java is pass by value and it is not possible to pass integer by reference in Java directly. 
+Objects created in Java are references which are passed by value.
+
+8.)Why only JVM gives default constructor?
+Ans :	The Java compiler provides a default constructor if you don't have any constructor in a class. The method is not provided by the compiler in any case. 
+The constructor name must be same as the class name. The method name may or may not be same as the class name.
+
+
+9.)who gives default constructor?
+The Java compiler provides a default constructor if you don't have any constructor in a class. The method is not provided by the compiler in any case.
+
+10.)Is java call by reference or call by value?
+Java uses only call by value while passing reference variables as well. It creates a copy of references and passes them as valuable to the methods.
+
+11.)what happens if a final keyword is applied on class and function?
+If we initialize a variable with the final keyword, then we cannot modify its value. 
+If we declare a method as final, then it cannot be overridden by any subclasses
+
+12.)why string is passed in main method?
+Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily. 
+
+13.)difference b/w java 8 and java7?
+Java 7 brings JVM support for dynamically-typed languages plus Type Interference for Generic Instance creation.
+Java 8 brings the most anticipated feature for the programming 
+language called Lambda Expressions, a new language feature which allows users to code local functions as method arguments.
+
+14.)when and why collections were added?
+Java Collection Framework enables the user to perform various data manipulation 
+operations like storing data, searching, sorting, insertion, deletion, and updating of 
+data on the group of elements
+
+15.)difference b/w collection and collections?
+The Collection is an interface that contains a static method since java8. The Interface can also contain abstract and default methods.
+Collections contains only static methods.
+
+16.)why string is passed in main method?
+Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily.

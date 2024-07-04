@@ -1,0 +1,89 @@
+1) 
+package package1;
+// Java program to illustrate If statement
+class IfDemo {
+    public static void main(String  args[])
+    {
+           Sample2333  SampleObj23 = new Sample2333();
+
+      //  System.out.println(SampleObj23.add()  );
+       // System.out.println(SampleObj23.add(1,2)  );
+        System.out.println(SampleObj23.add("Ramana SAI")  );
+
+    }
+
+}
+class Sample2333
+{
+int a=90;
+byte b= 89;
+String name = "Rachana";
+//non praprmeter
+int add(){
+   //comment
+    String name = "sdfkgsdf";
+   int c= 23+23;
+   System.out.println("I am a non paramtereted and with rtetuurn value function");
+   return c ;
+};
+    int add(int a, int b){
+        //comment
+        int c= a+b;
+        System.out.println("I am parametered  nd with rtetuurn value function");
+        return c;
+    };
+
+    boolean add(String str){
+        //comment
+
+        System.out.println("Hellow " +str  +"can you hear me ?");
+
+        return false;
+    };
+
+}
+
+Why the output is showing false?
+- Because the function add(String str) must return a boolean value. And false is given in  the code.
+
+2) What is difference between constructor and function?
+Constructor is a block of code used to initializes a newly created object. Constructor has the same name as class name.
+
+Function is a reusable block of statements 
+
+3)Who gives default constructor?
+Jvm
+
+4) What are other responsibilities of jvm?
+Jvm allow Java programs to run on any device or operating system
+and to manage and optimize program memory. JVM performs byte-code interpretation, garbage collection, exception handling, thread management, initialization of variables, and type definition.
+
+5)Who is providing the extra functions is java and how to access a function?
+Ans)To access or to use a method, we need to call it. A function is called (or invoked, or executed) by providing the function name, 
+followed by the parameters being enclosed within parentheses.
+
+6) Why only jvm gives default constructor?
+The Java compiler provides a default constructor if you don't have any constructor in a class. 
+The method is not provided by the compiler in any case.
+
+7) Why string is passed in main method?
+Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily. 
+There can be several parameters! Also, all the other datatypes can be easily converted from String!
+
+8) What happens if a final keyword is applied on class and function?
+If we initialize a variable with the final keyword, then we cannot modify its value. If we declare a function as final, then it cannot be overridden by any subclasses.
+
+9) Is java call by reference or call by value?
+Java uses only call by value while passing reference variables as well. It creates a copy of references and passes them as valuable to the methods.
+
+10) Difference between java 8 and java7?
+Java 7 brings JVM support for dynamically-typed languages plus Type Interference for Generic Instance creation. 
+Java 8 brings the most anticipated feature for the programming language called Lambda Expressions, 
+a new language feature which allows users to code local functions as method arguments.
+
+11) When and why collections were added?
+Increases program speed and quality: The Collections Framework provides high-performance, high-quality implementations of useful data structures and algorithms. The various implementations of each interface are interchangeable, 
+so programs can be easily tuned by switching collection implementations.
+
+12) Difference between collection and collections?
+The Collection is an interface whereas Collections is a utility class in Java. The Set, List, and Queue are some of the subinterfaces of Collection interface, a Map interface is also part of the Collections Framework, but it doesn't inherit Collection interface. The important methods of Collection interface are add(), remove(), size(), clear() etc and Collections class contains only static methods like sort(), min(), max(), fill(), copy(), reverse() etc.

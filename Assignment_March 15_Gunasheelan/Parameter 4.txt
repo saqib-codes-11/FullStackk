@@ -1,0 +1,16 @@
+package parameter;
+  //without parameters and with return type
+public class Parameter4 {
+	public static String message()
+        {
+           return "Welcome";
+      
+        } 
+        public static void main(String args[])
+        {
+       
+           String str = message();
+           System.out.println(str);
+
+        }
+}
